@@ -1,3 +1,8 @@
 # elm-electron-sample
 
-**README.md**の内容がここに表示される
+# use
+```sh
+elm-package install elm-lang/html
+elm-make Main.elm --output app.js
+electron .
+```
